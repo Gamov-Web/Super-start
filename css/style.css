@@ -339,6 +339,19 @@ h1, h2 {
 }
 
 @media (max-width: 980px) {
+    h1, h2 {
+        font-size: 45px;
+    }
+
+    .header__info h1 {
+        max-width: 639px;
+    }
+
+    .header__info p {
+        max-width: 597px;
+        margin-bottom: 45px;
+    }
+
     .about-me__info p {
         max-width: 840px;
     }
@@ -349,7 +362,24 @@ h1, h2 {
     }
 }
 
+@media (max-width: 700px) {
+    h1, h2 {
+        font-size: 34px;
+    }
+    .header__info h1 {
+        max-width: 551px;
+    }
+}
+
 @media (max-width: 580px) {
+    h1, h2 {
+        font-size: 31px;
+    }
+
+    .header__info h1 {
+        max-width: 507px;
+    }
+
     .footer__row h2 {
         max-width: 409px;
     }
@@ -361,7 +391,7 @@ h1, h2 {
     }
 
     h1, h2 {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .header__info img {
@@ -441,7 +471,7 @@ h1, h2 {
     }
 
     h1, h2 {
-        font-size: 35px;
+        font-size: 29px;
     }
 
     .header__info img {
