@@ -78,7 +78,6 @@ h1, h2 {
     position: absolute;
     bottom: 24px;
     left: 50%;
-    transform: translateX(-50%);
     display: block;
     width: 22px;
     height: 32px;
@@ -88,9 +87,9 @@ h1, h2 {
 }
 
 @keyframes move_down {
-    0% { transform: translate(0, -10px); opacity: 0; }
+    0% { transform: translate(-10px, -10px); opacity: 0; }
     50% { opacity: 1; }
-    100% { transform: translate(0, 10px); opacity: 0; }
+    100% { transform: translate(-10px, 10px); opacity: 0; }
 }
 
 .button-up {
@@ -466,7 +465,7 @@ h1, h2 {
     }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 790px) {
     body {
         font-size: 14px;
     }
@@ -507,6 +506,7 @@ h1, h2 {
     }
     .header__arrow-down {
         position: inherit;
+        margin: 0 auto;
     }
 }
 
